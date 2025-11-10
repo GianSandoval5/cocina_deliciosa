@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-next",
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-json",
+    "ritwickdey.liveserver",
+    "ms-vscode.vscode-css-peek",
+    "zignd.html-css-class-completion",
+    "pranaygp.vscode-css-peek",
+    "bradlc.vscode-tailwindcss",
+    "formulahendry.auto-close-tag"
+  ]
+}

@@ -1,0 +1,148 @@
+.search-page {
+  min-height: 100vh;
+  background-color: #fafaf9;
+  padding-top: 2rem;
+}
+
+.search-page__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header */
+.search-page__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.search-page__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1c1917;
+  margin: 0 0 1rem 0;
+}
+
+.search-page__description {
+  font-size: 1.125rem;
+  color: #78716c;
+  margin: 0 0 2rem 0;
+}
+
+.search-page__search {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Results */
+.search-page__results {
+  margin-top: 2rem;
+}
+
+.search-page__results-header {
+  margin-bottom: 1.5rem;
+}
+
+.search-page__results-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1c1917;
+  margin: 0;
+}
+
+/* Suggestions */
+.search-page__suggestions {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  margin-top: 2rem;
+}
+
+.search-page__suggestions-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1c1917;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+.search-page__suggestions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.search-page__suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  background-color: #fafaf9;
+  border: 2px solid #e7e5e4;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.search-page__suggestion:hover {
+  border-color: #f37316;
+  background-color: #fef7f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.search-page__suggestion-emoji {
+  font-size: 2rem;
+}
+
+.search-page__suggestion-term {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1c1917;
+}
+
+.search-page__suggestion-description {
+  font-size: 0.875rem;
+  color: #78716c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-page {
+    padding-top: 1rem;
+  }
+  
+  .search-page__container {
+    padding: 0 1.5rem;
+  }
+  
+  .search-page__title {
+    font-size: 2rem;
+  }
+  
+  .search-page__suggestions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  .search-page__suggestion {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-page__container {
+    padding: 0 1rem;
+  }
+  
+  .search-page__title {
+    font-size: 1.75rem;
+  }
+  
+  .search-page__suggestions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
