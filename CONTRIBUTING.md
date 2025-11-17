@@ -112,7 +112,7 @@ function RecipeCard(props) {
 
 ```bash
 # Clonar tu fork
-git clone https://github.com/TU-USUARIO/cocina_deliciosa.git
+git clone https://github.com/GianSandoval5/cocina_deliciosa.git
 
 # Instalar dependencias
 npm install

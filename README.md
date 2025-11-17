@@ -2,7 +2,10 @@
 
 <div align="center">
 
-![Recipe App Banner](https://via.placeholder.com/800x300/f37316/ffffff?text=Cocina+Deliciosa)
+![Recipe App Banner]
+<img src="assets/1.png" width="800">
+<img src="assets/2.png" width="800">
+<img src="assets/3.png" width="800">
 
 **Descubre, explora y cocina las mejores recetas del mundo** 🌍
 
@@ -10,8 +13,6 @@
 [![Vite](https://img.shields.io/badge/Vite-7.x-646cff?style=flat&logo=vite)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES2023-f7df1e?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
-
-[Demo en Vivo](https://cocina-deliciosa.vercel.app) • [Reportar Bug](https://github.com/GianSandoval5/cocina-deliciosa/issues) • [Solicitar Función](https://github.com/GianSandoval5/cocina-deliciosa/issues)
 
 </div>
 
