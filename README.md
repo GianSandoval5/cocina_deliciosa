@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Recipe App Banner]
+## CAPTURAS DE PANTALLA
 <img src="assets/1.png" width="800">
 <img src="assets/2.png" width="800">
 <img src="assets/3.png" width="800">
